@@ -226,53 +226,42 @@ Cada vez que un usuario cree un registro de Pacientes el mismo se guardará dent
 
  
 
-Usuarios
+Usuarios:
 
-Usuario char [10]
-
-Contraseña char [10]
-
-Apellido y Nombre char [60]
+Usuario              char [10]
+Contraseña           char [10]
+Apellido y Nombre    char [60]
 
  
 
-Profesionales
 
-Apellido y Nombre  char [60]
+Profesionales:
 
-IdProfesional Int 
-
-Dni Int
-
-Teléfono char[25]
+Apellido y Nombre    char [60]
+IdProfesional        Int 
+Dni                  Int
+Teléfono             char[25]
 
  
 
-Pacientes                 
+Pacientes:                 
 
-Apellido y Nombre char [60]
+Apellido y Nombre    char [60]
+Domicilio            char [60]
+DniPaciente          int
+Localidad            char [60]
+FechadeNacimiento    Fecha
+Teléfono             char[25]
 
-Domicilio char [60]
-
-DniPaciente int
-
-Localidad char [60]
-
-FechadeNacimiento Fecha
-
-Teléfono char[25]
 
  
 
-Turnos
+Turnos:
 
-IdProfesional int
-
-Fecha fecha
-
-DniPaciente int
-
-DetalledeAtención char[380]
+IdProfesional        int
+Fecha                fecha
+DniPaciente          int
+DetalledeAtención    char[380]
 
  
 
